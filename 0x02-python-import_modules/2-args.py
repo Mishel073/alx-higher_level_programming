@@ -2,7 +2,7 @@
 import sys
 
 def main(argv):
-    num_args = len(argv)
+    num_args = len(argv) - 1
     
     if num_args == 0:
         print("Number of argument(s): .")
